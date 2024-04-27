@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-color: black;
+}
+
+
+
+nav{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-21%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.658);
+    
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    box-shadow: 1px 5px 10px wheat;
+   opacity: 0.8;
+    
+}
+.links{
+    border-left: 5px solid;
+    padding-left: 5px;
+    text-decoration: none;
+    color: wheat;
+    margin:15px;
+}
+h1 {
+        color: wheat;
+        text-align: center;
+        
+}
+
+h5{
+    color: white;
+    text-align: justify;
+    margin: 0px 50px;
+}
+
+p{
+    color: white;
+    
+}
+
+footer > p{
+    text-align: center;
+}
+table, th, td {
+     text-align: center;
+     color: white;
+     border: 1px solid rgb(255, 255, 255);
+}
+
+td{
+    max-width: 50%;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+    width:80%;
+    text-align: center;
+  }
+
+  div > a > img{
+    display: block;
+    width: auto;
+    height: 80px;
+   
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    padding: 0 4px;
+    margin: 20px auto;
+  }
+  
+  .column img {
+    margin: 8px auto;
+    vertical-align: middle;
+     }
+  
+.description{
+   text-align: center;
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+   
+  }
+
+hr{
+    width: 70%;
+    border: 2px solid wheat;
+    margin-top: 10px;
+}
+
+

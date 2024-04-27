@@ -3,20 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FootPrediction</title>
+    <title>CentralFootball</title>
     <link rel="icon" type="image/x-icon" href="images/main-photo.jpg">
-    <style>
-        table, th, td {
-          border:1px solid black;
-          border-collapse: collapse;
-        }
-        </style>
-</head>
-<body>
-    <nav>
-        <a href="https://www.transfermarkt.com/">Live News</a> 
-        <a href="https://www.flashscore.co.uk/">Live Scores</a> 
-        <a href="">About</a> 
+    <link rel="stylesheet" href="public/styles.css">
+  </head>
+<body class="bg-black">
+    <nav class="nav">
+        <a href="#liveNews" class="links">Live News </a> 
+        <a href="#liveScores" class="links">Live Scores </a> 
+        <a href="#about" class="links">About</a> 
     </nav>
 
     <img src="images/main-photo.jpg" alt="" width="100%">
@@ -24,8 +19,8 @@
 
 
 <!-- My Prediction -->
-<h1>Today Prediction</h1>
-<table style="width:50%">
+<h1 class="">Best Prediction</h1>
+<table class="center">
     <tr>
         <th colspan="2">League</th>
     </tr>
@@ -35,25 +30,84 @@
     </tr>
     <tr style="height:200px">
         <td colspan="2">
-            <p>This is a paragraph in a single cell.</p>
+            <p>Resume about the match</p>
         </td>
     </tr>
 </table>
-  
+
 
 <!-- News Section -->
-<h1>Live News</h1>
-<iframe src="https://www.w3schools.com" title="Iframe Example"></iframe>
+<h1 id="liveNews">Live News</h1>
+<div class="row">
 
+    <div class="column">
+        <a href="https://www.transfermarkt.com/"><img src="images/transfermarktNews.png" alt=""></a>
+        <div class="description">
+            <p>The football website for transfers, market values, rumours and stats.</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <a href="https://www.90min.com/"><img src="images/90minNews.png" alt=""></a>
+        <div class="description">
+            <p>Football news, transfer news and rumours, opinion, fixtures, tables, player ratings.</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <a href="https://www.fourfourtwo.com/"><img src="images/FourFourTwoNews.png" alt=""></a>
+        <div class="description">
+            <p>The latest football news, in-depth features, tactical and statistical analysis.</p>
+        </div>
+    </div>
+</div>
+<!-- <iframe src="https://www.w3schools.com" title="Iframe Example"></iframe> -->
+ <hr>
 <!-- Results Section -->
-<h1>Live Scores</h1>
-<iframe src="https://www.goal.com/en-gb/live-scores" style="height:500px;width:900px;" title="Iframe Example"></iframe>
+<h1 id="liveScores">Live Scores</h1>
+<div class="row">
+    <div class="column">
+        <a href="https://www.flashscore.co.uk/"><img src="images/Flashscore.png" alt=""></a>
+        <div class="description">
+            <p>All the latest football results from more than 1000+ football leagues all around the world.</p>
+        </div>
+    </div>
 
+    <div class="column">
+        <a href="https://www.livescore.com/en/"><img src="images/LiveScore.png" alt=""></a>
+        <div class="description">
+            <p>We cover all Countries, Leagues and Competitions in unbeatable detail.</p>
+        </div>
+    </div>
 
+</div>
+
+<hr>
+<!-- Extras  -->
+<h1 id="">Extras</h1>
+<div class="row">
+    <div class="column">
+        <a href="https://www.premierleague.com/home"><img src="images/FantasyPL.png" alt=""></a>
+        <div class="description">
+            <p>Official Fantasy Premier League.</p>
+        </div>
+    </div>
+</div>
+<hr>
 <!-- About US  -->
-<h1>About FootPrediction</h1>
-<h5>Resume</h5>
+<h1 id="about">About CentralFootball</h1>
+<h5>Welcome to our Football Hub, your one-stop destination for everything you need about football. <br>As a passionate
+    football enthusiast, I've created this platform to share my love for the beautiful game with fellow fans like you.
+    <br> I'm dedicated to bringing you the most
+    comprehensive and popular websites of the football world, whether breaking news, match results, or expert predictions, everything you need in one page <br>This page is also about creating a community of passionate fans
+    who live and breathe football. So, feel free to join the conversation, share your thoughts, and engage with other
+    fans as we navigate the highs and lows of the beautiful game together. <br>So, sit back, grab your favorite jersey,
+    and immerse yourself in the world of football with us. Let's kick off this journey together!</h5>
 
+
+<footer class="">
+    <p>© 2024 CentralFootball</p>
+</footer>
 
 </body>
 </html>
